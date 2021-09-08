@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Units</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/alta-temperatura.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Temperature Units</h1>
+    </header>
+    <main>
+        <div class="form-control">
+            <input name="sideA_output" id="sideA_output" class="output" />
+            <select class="selectInput">
+                <option value="celsius" selected>Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <input name="sideB_output" id="sideB_output" class="output" placeholder="Result" disabled/> 
+            <select class="selectInput">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit" selected>Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
